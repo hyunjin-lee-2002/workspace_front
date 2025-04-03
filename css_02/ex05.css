@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+table{border-collapse: collapse;
+        text-align: center;}
+
+thead{background-color: #d5d5d5;}
+/*table>thead{background-color: #d5d5d5;}  조금 더 엄격*/
+
+
+th, td{border: 1px solid #000000;}
+th{border-style: none;}
+th{border-top: 1px solid #000000;
+   border-bottom: 1px solid #000000;}
+
+tbody>tr:hover{background-color: #ffff00;}
+tr, td{border-collapse: collapse;}
+tr>td{border-style: dotted;}
+tr>td{border-left: none;
+      border-right: none;}
+.txt-solid{border-bottom: 1px solid #000000;}
+
+.txt-l{text-align: left;}
+.txt-c{text-align: center;}
+
+
+
+
+head, body{border-style: solid;
+           min-width: 100px;
+           min-height: 300px;}
