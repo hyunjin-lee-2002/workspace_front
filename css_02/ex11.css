@@ -1,0 +1,11 @@
+@charset "UFT-8";
+
+ul>li{
+    list-style-type: none;
+    padding-left: 13px;
+    
+    background-image: url(./img/star.jpg);
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    background-position: center left;
+}

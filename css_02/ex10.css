@@ -1,0 +1,7 @@
+@charset "UFT-8";
+
+.bg-img{
+    width: 1500px;
+    height:7000px;
+    background: #7da9d7 url('./img/back_img02.jpg');
+}

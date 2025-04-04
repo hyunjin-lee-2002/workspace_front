@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.round{width: 200px;
+       border:1px solid #000000;
+       border-radius: 20px;}
+
+.round2{width: 200px;
+       border:1px solid #000000;
+
+       border-top-left-radius: 5px;
+       border-top-right-radius: 10px;
+       border-bottom-right-radius: 15px;
+       border-bottom-left-radius: 20px;}

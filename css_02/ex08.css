@@ -1,0 +1,23 @@
+@charset "UFT-8";
+
+.btn{display: inline-block; 
+     width: 130px;
+     height: 40px;
+     border-radius: 5px;
+     font-size: 15px;
+     text-align: center;
+     line-height: 40px;
+     text-decoration: none; 
+     cursor: pointer;}
+
+.btn-blue{background-color: #6074f1;
+          border: 2px solid #1e02b8;}
+
+.btn-red{background-color: #fd7171;
+         border: 2px solid #ff0000;}
+
+.btn-grey{background-color: #bfbfbf;
+          border: 2px solid #7d7d7d;}
+
+.btn-green{background-color: #54fd05;
+           border: 2px solid #3fc002;}

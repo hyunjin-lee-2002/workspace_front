@@ -1,0 +1,17 @@
+@charset "UFT-8";
+
+.bg-img{width: 2000px;
+        height: 5000px;
+
+        /*
+        background-color: #000000;
+        background-image: url(./img/yoo.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: top right;
+        background-attachment: fixed;
+        */
+
+        background: #000000 url(./img/yoo.jpg) no-repeat fixed top right
+
+    }
