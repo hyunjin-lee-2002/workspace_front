@@ -1,17 +1,31 @@
 @charset "UTF-8";
+body{
+      border: 1px solid #000000;
+      padding: 0px 50px 10px 10px;
+      margin-right: 750px;
+}
 
-table{border-collapse: collapse; /*경계없애기*/
+
+
+table{
+      border-collapse: collapse; /*경계없애기*/
       border: 1px;
-      text-align: center;}
+      text-align: center;
+}
 
 /*thead{background-color: #d5d5d5;}*/
-table>thead{background-color: #d5d5d5;}  조금 더 엄격
+table>thead{
+      background-color: #d5d5d5;
+}  조금 더 엄격
 
 
-th, td{border: 1px solid #000000;}
+th, td{
+      border: 1px solid #000000;
+}
 th{border-style: none;}
 th{border-top: 1px solid #000000;
-   border-bottom: 1px solid #000000;}
+   border-bottom: 1px solid #000000;
+}
 
 tbody>tr:hover{background-color: #ffff00;}
 tr, td{border-collapse: collapse;}
@@ -27,6 +41,8 @@ tr>td{border-left: none;
 
 
 
-head, body{border-style: solid;
+head, body{
+      border-style: solid;
            min-width: 100px;
-           min-height: 300px;}
+           min-height: 300px;
+      }
