@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.box{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #000000;
+    /* visibility: visible; */
+}
+
+.red{
+    background-color: #ff0000;
+}
+.green{
+    background-color: #00ff00;
+    /* visibility: visible; */
+    display: block; 
+}
+.blue{
+    background-color: #0000ff;
+}

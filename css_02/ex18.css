@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.box{
+    width: 300px;
+    height: 70px;
+    background-color: #00ff00;
+}
+
+.box01{
+    overflow: hidden;
+}
+
+.box02{
+    overflow: auto;
+}
+
+.box03{
+    color: #ff0000;
+    background-color: #000000;
+    /* 
+    overflow-y: scroll; 
+    */ 
+}
