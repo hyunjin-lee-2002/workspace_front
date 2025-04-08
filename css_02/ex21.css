@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.box-grey{
+    width: 700px;
+    /* padding: 3px; */
+    background-color: #808080;
+}
+
+.box-blue{
+    width:200px;
+    background-color: #0000ff;
+    float: left;
+}
+.box-green{
+    width: 200px;
+    background-color: #00ff00;
+    float: left;
+}
+
+.box-red{
+    width: 800px;
+    height: 50px;
+    background-color: #ff0000;
+}
+
+
+/* clearfix */
+/* 익스플로어 용
+.clearfix{*zoom:1;}
+ */
+.clearfix::before, 
+.clearfix::after {
+    display: block; content: ""; line-height: 0;
+}
+.clearfix::after {
+    clear: both;
+}
