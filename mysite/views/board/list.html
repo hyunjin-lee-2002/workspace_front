@@ -6,6 +6,7 @@
         <title>MySite</title>
         <link rel="stylesheet" href="../../assets/css/reset.css">
         <link rel="stylesheet" href="../../assets/css/mysite.css">
+        <link rel="stylesheet" href="../../assets/css/board.css">
     </head>
 
     <body>
@@ -36,7 +37,7 @@
             </div>
             <!--------네비관련---------->
 
-            <!--------content2 관련---------->
+            <!--------서치, 리스트 관련---------->
             <div id="content2" class="clearfix">
                 <div id="aside">
                     <h2>게시판</h2> <!--line height는 한 줄만 적용됨-->
@@ -55,10 +56,94 @@
                             <li>일반게시판</li>
                         </ol>
                     </div>
-                    게시판 리스트
+
+                    <div id="list-search">
+                        <label for="txt-search" class="form-search"></label>
+                        <input id="txt-search" type="search" name="" value="">
+                        <button type="button" class="btn-search">검색</button>
+                    </div>
+
+
+                    <table class="list-tb">
+                        <thead class="tb-head">
+                            <th>번호</th>
+                            <th>제목</th>
+                            <th>글쓴이</th>
+                            <th>조회수</th>
+                            <th>작성일</th>
+                            <th>관리</th>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>123</td>
+                                <td>
+                                    <a href="">정우성 입니다</a>
+                                </td>
+                                <td>이현진</td>
+                                <td>545</td>
+                                <td>2025-04-09</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td>123</td>
+                                <td>
+                                    <a href="">정우성 입니다</a>
+                                </td>
+                                <td>이현진</td>
+                                <td>545</td>
+                                <td>2025-04-09</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td>123</td>
+                                <td>
+                                    <a href="">정우성 입니다</a>
+                                </td>
+                                <td>이현진</td>
+                                <td>545</td>
+                                <td>2025-04-09</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td>123</td>
+                                <td>
+                                    <a href="">정우성 입니다</a>
+                                </td>
+                                <td>이현진</td>
+                                <td>545</td>
+                                <td>2025-04-09</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td>123</td>
+                                <td>
+                                    <a href="">정우성 입니다</a>
+                                </td>
+                                <td>이현진</td>
+                                <td>545</td>
+                                <td>2025-04-09</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td>123</td>
+                                <td>
+                                    <a href="">정우성 입니다</a>
+                                </td>
+                                <td>이현진</td>
+                                <td>545</td>
+                                <td>2025-04-09</td>
+                                <td>[삭제]</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="clearfix">
+                        <button type="button" id="write">글쓰기</button>
+                    </div>
                 </div>
             </div>
-            <!--------content2 관련---------->
+            <!--------서치, 리스트 관련---------->
 
             <!--------footer관련---------->
             <div id="footer">

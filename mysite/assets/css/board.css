@@ -1,0 +1,62 @@
+@charset "UFT-8";
+
+/* 게시판 관련 페이지에서만 사용 (리스트, 등록폼, 수정폼 읽기) */
+
+
+/* 리스트 */
+
+
+#list-search{
+    float: right;
+    padding: 10px 0px 5px 0px;
+}
+
+.btn-search{
+    padding: 0px 10px 0px 10px;
+}
+
+table{
+    float: left;
+    border-collapse: collapse;
+    border: 1px;
+    line-height: 30px;
+    text-align: center;
+    border-style: none;
+}
+
+.list-tb{
+    width: 800px;
+    text-align: center;
+    
+}
+
+th{
+    border-top: solid;
+    border-bottom: solid;
+    line-height: 40px;
+}
+
+.tb-head{
+    padding: 15px 0px 15px 0px;
+    border-style: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #c0c0c0;
+}
+
+tr{
+    border-bottom: 1px solid #000;
+}
+/* 리스트 */
+
+
+/* 등록폼 */
+
+#write{
+    float: right;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+/* 등록폼 */
