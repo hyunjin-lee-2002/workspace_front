@@ -2,6 +2,7 @@
 
 
 /* 레이아웃 ********************/
+
 body{
     font-family: "맑은 고딕";
     font-size: 12px;
@@ -11,24 +12,49 @@ body{
 #wrap{
     width: 1000px;
     margin: auto;
+    /* border: 1px solid #000; */
 }
 
 #header{
     padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #808080;
 }
 
 #nav{
-    border: 1px solid #000000;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #808080;
 }
 #content{
-    border: 1px solid #000000;
+    padding: 20px 20px 20px 20px;
 }
+
+#content2{
+    padding: 20px 0px 20px 0px;
+}
+
+#content2 #aside{
+    width: 180px;
+    margin-right: 10px;
+    float: left;
+}
+
+#content2 #main{
+    width: 798px;
+    float: left;
+}
+
+#main-head{
+    
+}
+
 #footer{
-    border: 1px solid #000000;
+    padding: 10px 0px 10px 0px;
+    background-color: #dddddd;
 }
 /* 레이아웃 ********************/
 
-/* 헤더관련 ********************/
+/* 헤더 관련 ********************/
+
 #header h1{
     font-size: 35px;
     font-weight: bold;
@@ -52,4 +78,96 @@ body{
     border: 1px solid #c0c0c0;
 }
 
-/* 헤더관련 ********************/
+/* 헤더 관련 ********************/
+
+/* 네비 관련*********************/
+
+#nav ul>li{
+    float: left;
+    width: 250px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+/* 네비 관련*********************/
+
+/* content(main) 관련*********************/
+#profile{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+#greeting-box{
+    width: 630px;
+    float: left;
+}
+
+#greeting-box .greeting{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#greeting-box .info{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* content(main) 관련*********************/
+
+/* content2 게시판 리스트 관련*********************/
+#aside h2{
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #c0c0c0;
+}
+
+#aside ul>li{
+    padding: 8px 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: 1px solid #a6a6a6;
+}
+
+#main #main-head{
+    padding: 15px 0px 10px 0px;
+    border-bottom: 1px solid #000;
+}
+
+#main #main-head h3{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#main #main-head ol{
+    margin-top: 10px;
+    float: right;
+}
+
+#main #main-head ol>li{
+    float: left;
+}
+#main #main-head ol>li::after{
+    content: ">";
+    padding: 0px;
+}
+
+#main #main-head ol>li:last-child::after{
+    content: none;
+    padding-right: 0px;
+}
+
+/* content2 게시판 리스트 관련*********************/
+
+/* footer 관련*********************/
+#footer p{
+    text-align: center;
+}
+/* footer 관련*********************/
