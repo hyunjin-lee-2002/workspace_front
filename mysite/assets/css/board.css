@@ -7,6 +7,7 @@
 
 
 #list-search{
+    /* border: 1px solid #000; */
     float: right;
     padding: 10px 0px 5px 0px;
 }
@@ -16,10 +17,8 @@
 }
 
 table{
-    float: left;
     border-collapse: collapse;
     border: 1px;
-    line-height: 30px;
     text-align: center;
     border-style: none;
 }
@@ -33,7 +32,6 @@ table{
 th{
     border-top: solid;
     border-bottom: solid;
-    line-height: 40px;
 }
 
 .tb-head{
@@ -49,6 +47,30 @@ tr{
 }
 /* 리스트 */
 
+/* 페이지 넘버 */
+
+/* 페이지 넘버 */
+/* #page{  } */
+#page #pg-number{
+    border: 1px solid #000;
+    width: 700px;
+    padding: 3px;
+    margin: 0px auto;
+}
+
+
+#page #pg-number ol>li{
+    float: left;    
+    border: 1px solid #000;
+    padding: 3px 10px 3px 10px;
+    
+
+        
+    /* border: 1px solid #000000; */
+}
+/* 페이지넘버 */
+
+
 
 /* 등록폼 */
 
@@ -60,3 +82,52 @@ tr{
 }
 
 /* 등록폼 */
+
+
+
+
+                /* 읽기 페이지 */
+table tr{
+    border-style: none;
+    text-align: left;
+}
+
+#read-tb{
+    width: 500px;
+    line-height: 30px;
+}
+
+.read{
+    
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+                /* 읽기 중 본문 */
+
+.text p{
+    text-indent: 15px;
+}
+
+.text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+                /* 읽기 중 본문 */
+
+                /* 목록, 수정 버튼 */
+.last-btn{
+    float: right;
+    margin: 10px 0px 10px 0px;
+}
+
+.btn-list{
+    padding: 0px 15px 0px 15px;
+}
+
+.btn-edit{
+    padding: 0px 15px 0px 15px;
+}
