@@ -1,0 +1,143 @@
+@charset "UFT-8";
+
+/********************
+** my site 공통 **
+********************/
+
+/* 레이아웃 ********************/
+
+body{
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    color: #000;
+}
+
+#wrap{
+    width: 1000px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+
+#header{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #808080;
+}
+
+#nav{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #808080;
+}
+
+/* 1단 */
+#content{
+    padding: 20px 20px 20px 20px;
+}
+
+/* 2단 */
+#content2{
+    padding: 20px 0px 20px 0px;
+}
+
+#content2 #aside{
+    width: 180px;
+    margin-right: 10px;
+    float: left;
+}
+
+#content2 #main{
+    width: 800px;
+    float: left;
+}
+
+/* #main-head{
+    
+} */
+
+#footer{
+    padding: 10px 0px 10px 0px;
+    background-color: #dddddd;
+}
+/* 레이아웃 ********************/
+
+/* 헤더 ********************/
+
+#header h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #79b30b;
+
+    float: left;
+}
+
+#header ul{
+    float: right;
+    margin-top: 13px;    
+}
+    
+#header ul>li{
+    float: left;
+
+    padding: 3px 5px 3px 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: #e3e3e3;
+    border: 1px solid #c0c0c0;
+}
+
+/* 헤더 ********************/
+
+/* 네비*********************/
+
+#nav ul>li{
+    float: left;
+    width: 250px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+/* 네비*********************/
+
+ol{
+    list-style-type: none;
+}
+
+            /* 이미지올리기 버튼 */
+.gallery-btn{
+    float: right;
+    margin: 10px 0px 10px 0px;
+}
+
+.btn-upload{
+    padding: 5px 15px 5px 15px;
+}
+            /* 이미지올리기 버튼 */
+
+            /* 일반갤러리 창 */
+            /* 여기가 문제다 씨발 */
+#gallery-main{
+    width: 100px;
+    float: left;
+    margin: 20px auto;
+    /* border: 1px solid #000; */
+}
+
+.main-gal{
+    /* border: 100px; */
+    width: 100px;
+    float: left;
+    margin-top: 50px;
+    border: 1px solid #000;
+}
+
+img{
+    width: 100px;
+}
+
+
+
+
+/* footer*********************/
+#footer p{
+    text-align: center;
+}
+/* footer*********************/
