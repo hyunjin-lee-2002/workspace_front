@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.container{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+    border: 3px solid #000;
+}
+
+.container.row{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; (주축 왼쪽(시작)에 붙음*/
+    /* justify-content: end; (주축 끝에 붙음)*/
+    /* justify-content: center; (가운데에 붙음) */
+    /* justify-content: space-between; (주축 양 끝에 아이템이 배치됨) */
+    /* justify-content:space-around; (좌우 여백이 똑같이 감) */
+    justify-content: space-evenly; /*(모든 아이템의 여백이 같음)*/
+}
+
+.container.column{
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center;  */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+
+.item1{
+    border: 3px solid #ff0000;
+}
+
+.item2{
+    border: 3px solid #0000ff;
+}
+
+.item3{
+    border: 3px solid #00ff00;
+}
